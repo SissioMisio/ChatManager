@@ -1,6 +1,6 @@
 package me.h1dd3nxn1nja.chatmanager.commands.tabcompleter;
 
-import me.h1dd3nxn1nja.chatmanager.ChatManager;
+import me.h1dd3nxn1nja.chatmanager.ChatManagerMercurioMC;
 import me.h1dd3nxn1nja.chatmanager.support.EssentialsSupport;
 import me.h1dd3nxn1nja.chatmanager.support.PluginManager;
 import me.h1dd3nxn1nja.chatmanager.support.PluginSupport;
@@ -15,7 +15,7 @@ import java.util.List;
 public class TabCompleteMessage implements TabCompleter {
 
 	@NotNull
-	private final ChatManager plugin = ChatManager.get();
+	private final ChatManagerMercurioMC plugin = ChatManagerMercurioMC.get();
 
 	@NotNull
 	private final PluginManager pluginManager = this.plugin.getPluginManager();

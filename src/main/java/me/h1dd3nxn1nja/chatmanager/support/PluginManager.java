@@ -1,7 +1,7 @@
 package me.h1dd3nxn1nja.chatmanager.support;
 
 import com.ryderbelserion.chatmanager.enums.Files;
-import me.h1dd3nxn1nja.chatmanager.ChatManager;
+import me.h1dd3nxn1nja.chatmanager.ChatManagerMercurioMC;
 import me.h1dd3nxn1nja.chatmanager.support.misc.VaultSupport;
 import me.h1dd3nxn1nja.chatmanager.support.placeholders.PlaceholderAPISupport;
 import me.h1dd3nxn1nja.chatmanager.support.vanish.EssentialsVanishSupport;
@@ -11,7 +11,7 @@ import org.jetbrains.annotations.NotNull;
 public class PluginManager {
 
     @NotNull
-    private final ChatManager plugin = ChatManager.get();
+    private final ChatManagerMercurioMC plugin = ChatManagerMercurioMC.get();
 
     private EssentialsSupport essentialsSupport;
 

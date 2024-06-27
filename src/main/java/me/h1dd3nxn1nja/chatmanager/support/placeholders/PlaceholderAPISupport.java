@@ -1,7 +1,7 @@
 package me.h1dd3nxn1nja.chatmanager.support.placeholders;
 
 import com.ryderbelserion.chatmanager.enums.Files;
-import me.h1dd3nxn1nja.chatmanager.ChatManager;
+import me.h1dd3nxn1nja.chatmanager.ChatManagerMercurioMC;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.configuration.file.FileConfiguration;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
@@ -11,7 +11,7 @@ import javax.annotation.Nullable;
 public class PlaceholderAPISupport extends PlaceholderExpansion {
 
 	@NotNull
-	private final ChatManager plugin = ChatManager.get();
+	private final ChatManagerMercurioMC plugin = ChatManagerMercurioMC.get();
 
 	@Override
 	public @Nullable String onRequest(OfflinePlayer player, @NotNull String identifier) {

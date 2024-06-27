@@ -1,7 +1,7 @@
 package me.h1dd3nxn1nja.chatmanager.utils;
 
 import com.ryderbelserion.chatmanager.enums.Files;
-import me.h1dd3nxn1nja.chatmanager.ChatManager;
+import me.h1dd3nxn1nja.chatmanager.ChatManagerMercurioMC;
 import org.bstats.bukkit.Metrics;
 import org.bstats.charts.SimplePie;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 public class MetricsHandler {
 
     @NotNull
-    private final ChatManager plugin = ChatManager.get();
+    private final ChatManagerMercurioMC plugin = ChatManagerMercurioMC.get();
 
     public void start() {
         Metrics metrics = new Metrics(this.plugin, 3291);

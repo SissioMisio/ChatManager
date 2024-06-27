@@ -1,6 +1,6 @@
 package me.h1dd3nxn1nja.chatmanager.support.misc;
 
-import me.h1dd3nxn1nja.chatmanager.ChatManager;
+import me.h1dd3nxn1nja.chatmanager.ChatManagerMercurioMC;
 import net.milkbowl.vault.chat.Chat;
 import net.milkbowl.vault.permission.Permission;
 import org.bukkit.entity.Player;
@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 public class VaultSupport {
 
 	@NotNull
-	private final ChatManager plugin = ChatManager.get();
+	private final ChatManagerMercurioMC plugin = ChatManagerMercurioMC.get();
 
 	private Permission permission;
 	private Chat chat;

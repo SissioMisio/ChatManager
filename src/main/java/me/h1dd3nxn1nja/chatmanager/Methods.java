@@ -16,7 +16,7 @@ import org.jetbrains.annotations.NotNull;
 public class Methods {
 
 	@NotNull
-	private final ChatManager plugin = ChatManager.get();
+	private final ChatManagerMercurioMC plugin = ChatManagerMercurioMC.get();
 
 	private final String format = Files.CONFIG.getConfiguration().getString("Hex_Color_Format");
 	private final Pattern HEX_PATTERN = Pattern.compile(format + "([A-Fa-f0-9]{6})");

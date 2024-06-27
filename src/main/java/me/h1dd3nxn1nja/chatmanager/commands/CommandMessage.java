@@ -1,6 +1,6 @@
 package me.h1dd3nxn1nja.chatmanager.commands;
 
-import me.h1dd3nxn1nja.chatmanager.ChatManager;
+import me.h1dd3nxn1nja.chatmanager.ChatManagerMercurioMC;
 import com.ryderbelserion.chatmanager.enums.Permissions;
 import me.h1dd3nxn1nja.chatmanager.managers.PlaceholderManager;
 import me.h1dd3nxn1nja.chatmanager.support.EssentialsSupport;
@@ -21,7 +21,7 @@ import java.util.UUID;
 public class CommandMessage implements CommandExecutor {
 
 	@NotNull
-	private final ChatManager plugin = ChatManager.get();
+	private final ChatManagerMercurioMC plugin = ChatManagerMercurioMC.get();
 
 	@NotNull
 	private final GenericVanishSupport genericVanishSupport = this.plugin.getPluginManager().getGenericVanishSupport();

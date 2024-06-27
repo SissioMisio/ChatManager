@@ -2,7 +2,7 @@ package me.h1dd3nxn1nja.chatmanager.commands;
 
 import java.text.DecimalFormat;
 import com.ryderbelserion.chatmanager.enums.Files;
-import me.h1dd3nxn1nja.chatmanager.ChatManager;
+import me.h1dd3nxn1nja.chatmanager.ChatManagerMercurioMC;
 import com.ryderbelserion.chatmanager.enums.Permissions;
 import me.h1dd3nxn1nja.chatmanager.managers.PlaceholderManager;
 import org.bukkit.command.Command;
@@ -17,7 +17,7 @@ public class CommandLists implements CommandExecutor {
 	private final DecimalFormat df = new DecimalFormat("#,###");
 
 	@NotNull
-	private final ChatManager plugin = ChatManager.get();
+	private final ChatManagerMercurioMC plugin = ChatManagerMercurioMC.get();
 
 	@NotNull
 	private final PlaceholderManager placeholderManager = this.plugin.getCrazyManager().getPlaceholderManager();

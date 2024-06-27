@@ -9,13 +9,13 @@ import org.bukkit.boss.BarStyle;
 import org.bukkit.boss.BossBar;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
-import me.h1dd3nxn1nja.chatmanager.ChatManager;
+import me.h1dd3nxn1nja.chatmanager.ChatManagerMercurioMC;
 import org.jetbrains.annotations.NotNull;
 
 public class BossBarUtil {
 
 	@NotNull
-	private final ChatManager plugin = ChatManager.get();
+	private final ChatManagerMercurioMC plugin = ChatManagerMercurioMC.get();
 
 	private String title;
 	private BarColor color;
@@ -178,12 +178,12 @@ public class BossBarUtil {
 		return this;
 	}
 
-	public BossBarUtil setBossBarAnimation(Player player, List<String> titles, int time, ChatManager chatManager) {
+	public BossBarUtil setBossBarAnimation(Player player, List<String> titles, int time, ChatManagerMercurioMC chatManagerMercurioMC) {
 		BossBar bossBar = this.plugin.getServer().createBossBar(titles.get(0), color, BarStyle.SOLID, BarFlag.CREATE_FOG);
 		bossBar.addPlayer(player);
 		this.bossBars.put(player.getUniqueId(), bossBar);
 
-		this.plugin.getServer().getScheduler().scheduleSyncRepeatingTask(chatManager, new Runnable() {
+		this.plugin.getServer().getScheduler().scheduleSyncRepeatingTask(chatManagerMercurioMC, new Runnable() {
 			int i = 1;
 			int ticksRan = 0;
 

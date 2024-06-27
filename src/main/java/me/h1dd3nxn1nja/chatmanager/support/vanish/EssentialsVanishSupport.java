@@ -2,7 +2,7 @@ package me.h1dd3nxn1nja.chatmanager.support.vanish;
 
 import com.earth2me.essentials.User;
 import com.ryderbelserion.chatmanager.api.interfaces.VanishController;
-import me.h1dd3nxn1nja.chatmanager.ChatManager;
+import me.h1dd3nxn1nja.chatmanager.ChatManagerMercurioMC;
 import me.h1dd3nxn1nja.chatmanager.support.EssentialsSupport;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 public class EssentialsVanishSupport implements VanishController {
 
     @NotNull
-    private final ChatManager plugin = ChatManager.get();
+    private final ChatManagerMercurioMC plugin = ChatManagerMercurioMC.get();
 
     @NotNull
     private final EssentialsSupport essentialsSupport = this.plugin.getPluginManager().getEssentialsSupport();

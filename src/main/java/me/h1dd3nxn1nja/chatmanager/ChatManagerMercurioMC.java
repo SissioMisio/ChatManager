@@ -24,11 +24,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 import java.util.Arrays;
 
-public class ChatManager extends JavaPlugin {
+public class ChatManagerMercurioMC extends JavaPlugin {
 
     @NotNull
-    public static ChatManager get() {
-        return JavaPlugin.getPlugin(ChatManager.class);
+    public static ChatManagerMercurioMC get() {
+        return JavaPlugin.getPlugin(ChatManagerMercurioMC.class);
     }
 
     private ApiLoader api;

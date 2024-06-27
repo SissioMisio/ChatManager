@@ -1,4 +1,4 @@
-rootProject.name = "ChatManager"
+rootProject.name = "ChatManagerMercurioMC"
 
 pluginManagement {
     repositories {

@@ -1,6 +1,6 @@
 package com.ryderbelserion.chatmanager.api;
 
-import me.h1dd3nxn1nja.chatmanager.ChatManager;
+import me.h1dd3nxn1nja.chatmanager.ChatManagerMercurioMC;
 import me.h1dd3nxn1nja.chatmanager.managers.PlaceholderManager;
 import me.h1dd3nxn1nja.chatmanager.support.PluginManager;
 import org.jetbrains.annotations.NotNull;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class CrazyManager {
 
     @NotNull
-    private final ChatManager plugin = ChatManager.get();
+    private final ChatManagerMercurioMC plugin = ChatManagerMercurioMC.get();
 
     private final PluginManager pluginManager = plugin.getPluginManager();
 

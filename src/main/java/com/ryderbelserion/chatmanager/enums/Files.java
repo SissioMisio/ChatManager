@@ -1,7 +1,7 @@
 package com.ryderbelserion.chatmanager.enums;
 
 import com.ryderbelserion.vital.paper.files.config.FileManager;
-import me.h1dd3nxn1nja.chatmanager.ChatManager;
+import me.h1dd3nxn1nja.chatmanager.ChatManagerMercurioMC;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 public enum Files {
@@ -16,7 +16,7 @@ public enum Files {
     private final String strippedName;
     private final YamlConfiguration configuration;
 
-    private final ChatManager plugin = ChatManager.get();
+    private final ChatManagerMercurioMC plugin = ChatManagerMercurioMC.get();
 
     private final FileManager fileManager = plugin.getFileManager();
 
