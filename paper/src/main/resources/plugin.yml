@@ -1,5 +1,5 @@
 name: '${name}'
-main: '${group}.${name}'
+main: 'me.h1dd3nxn1nja.chatmanager.ChatManagerMercurioMC'
 
 authors:
   - h1dd3nxn1nja
